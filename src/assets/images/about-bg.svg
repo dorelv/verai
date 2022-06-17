@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="362px" height="362px" viewBox="0 0 362 362" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>about-bg</title>
+    <defs>
+        <linearGradient x1="50.5747126%" y1="50.5747126%" x2="0%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#818181" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="43.1034483%" y1="43.6781609%" x2="96.5517241%" y2="91.954023%" id="linearGradient-2">
+            <stop stop-color="#8F8F8F" offset="0%"></stop>
+            <stop stop-color="#B3B3B3" offset="9%"></stop>
+            <stop stop-color="#C9C9C9" offset="18%"></stop>
+            <stop stop-color="#DBDBDB" offset="31%"></stop>
+            <stop stop-color="#E8E8E8" offset="44%"></stop>
+            <stop stop-color="#F2F2F2" offset="59%"></stop>
+            <stop stop-color="#FAFAFA" offset="75%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="about-bg" fill-rule="nonzero">
+            <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="362" height="362"></rect>
+            <polygon id="Path" fill="url(#linearGradient-1)" points="0 314.94 0 0 314.94 0"></polygon>
+            <path d="M220.458,314.94 C107.152,277.111 0,314.94 0,314.94 C0,314.94 114.935,181.362 157.47,144.8 C201.634,106.971 314.94,0 314.94,0 C314.94,0 195.299,188.964 220.458,314.94 Z" id="Path" fill="#000000"></path>
+            <path d="M258.287,258.287 C107.152,258.287 0,314.94 0,314.94 C0,314.94 76.02,194.937 135.569,135.207 C195.118,75.477 314.94,0 314.94,0 C314.94,0 258.287,113.306 258.287,258.287 Z" id="Path" fill="url(#linearGradient-2)"></path>
+        </g>
+    </g>
+</svg>
