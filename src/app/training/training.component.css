@@ -23,8 +23,8 @@
 	pointer-events: none;
 	background: radial-gradient(
 		41.46% 54.99% at 65.36% 46.44%,
-		#5a5a5a 0,
-		#25292e 100%
+		#000 0,
+		#3b3b3b 100%
 	);
 	opacity: 0;
 	transition: opacity 1.6s ease-out;
@@ -212,7 +212,7 @@
 	transform: translateX(-100px);
 }
 .training-section-night .develop-time {
-	background-color: hsla(0, 0%, 100%, 0.1);
+	background-color: hsla(0, 0%, 0%, 0.1);
 }
 .training-section-night .develop-time::before {
 	animation: timeDot2 2s linear forwards;
@@ -258,7 +258,7 @@
 	}
 }
 .training-section-night .training-back-flip {
-	background-color: #242a35;
+	background-color: #000;
 	color: #fff;
 }
 .training-section-night .certificate-button {
@@ -294,7 +294,7 @@
 	transform: rotateY(180deg);
 	height: 250px;
 	border-radius: 5px;
-	background-color: #434241;
+	background-color: #000;
 }
 .training-flip-box:hover .training-front-flip {
 	transform: rotateY(-180deg);

@@ -14,13 +14,18 @@
 			</div>
 		</div>
 		<div class="container-ach">
+			
 			<div
 				*ngFor="let achievement of achievementData"
 				class="box col-lg-4 wow zoomIn{{
 					achievement['animationClass']
 				}}"
+				
 				data-wow-delay="0.5s"
 			>
+			
+			<a  href="{{achievement['link']}}">
+				
 				<h3 class="description pl-1 h2">
 					{{ achievement["description"] }}
 				</h3>
@@ -33,7 +38,9 @@
 					loading="lazy"
 					title="{{ achievement['image'] }}"
 				/>
+			</a>
 			</div>
+		
 		</div>
 	</div>
 </section>

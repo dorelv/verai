@@ -444,7 +444,10 @@ h6 {
 	color: #f8f9fa;
 }
 .text-muted {
-	color: #6c757d;
+	color: #3b3b3b;
+}
+.text-desc {
+	color: #fff;
 }
 .text-white-50 {
 	color: rgba(255, 255, 255, 0.5);

@@ -27,7 +27,7 @@
 .nav-tabs .nav-link {
 	border: 1px solid transparent;
 	text-transform: uppercase;
-	color: #242a35;
+	color: #000;
 	padding: 16px 10px;
 	border-radius: 50px;
 	font-weight: 600;
@@ -59,10 +59,10 @@
 	border-radius: 50px;
 	transition-duration: 0.6s;
 	transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-	background: #434241;
-	background: -moz-radial-gradient(ellipse at center, #5a5a5a, #434241);
-	background: -webkit-radial-gradient(ellipse at center, #5a5a5a, #434241);
-	background: radial-gradient(ellipse at center, #5a5a5a, #434241);
+	background: #000;
+	background: -moz-radial-gradient(ellipse at center, #000, #3b3b3b);
+	background: -webkit-radial-gradient(ellipse at center, #000, #3b3b3b);
+	background: radial-gradient(ellipse at center, #000, #3b3b3b);
 }
 .about-img img {
 	max-width: 200px;
@@ -128,7 +128,7 @@ small {
 	position: absolute;
 	width: 15px;
 	height: 15px;
-	background-color: #242a35;
+	background-color: #fff;
 	top: 25%;
 	border-radius: 50%;
 }
@@ -149,7 +149,7 @@ small {
 	width: 0;
 	top: 5%;
 	left: calc(50% - 1px);
-	border: 1px dashed #000;
+	border: 1px dashed #fff;
 	height: 90%;
 }
 #timeline-divider .timeline-traveller {
@@ -160,15 +160,15 @@ small {
 	transform: rotate(90deg);
 	margin-top: -35px;
 	display: block;
-	color: #000;
+	color: #fff;
 }
 .experience-designation {
 	font-size: 1.2rem;
-	color: #242a35;
+	color: #fff;
 }
 .experience-company-name {
 	margin: 5px 0 0;
-	color: #434241;
+	color: #fff;
 	font-weight: 400;
 	font-size: 1rem;
 }
